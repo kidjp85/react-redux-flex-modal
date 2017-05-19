@@ -5,6 +5,15 @@ import { SHOW_MODAL, HIDE_MODAL, MODAL_TYPE_DEFAULT, MODAL_TYPE_CONFIRMATION } f
 import Header from './components/modal-header';
 import Body from './components/modal-body';
 import Footer from './components/modal-footer';
+import {
+  ModalWrapper,
+  ModalOverlay,
+  ModalContent,
+  ModalContentHeader,
+  ModalContentBody,
+  ModalContentFooter,
+  CloseButton
+} from './components/base-components';
 
 export {
   SHOW_MODAL,
@@ -16,7 +25,14 @@ export {
   reducer,
   Header,
   Body,
-  Footer
+  Footer,
+  ModalWrapper,
+  ModalOverlay,
+  ModalContent,
+  ModalContentHeader,
+  ModalContentBody,
+  ModalContentFooter,
+  CloseButton
 };
 
 export default core;
